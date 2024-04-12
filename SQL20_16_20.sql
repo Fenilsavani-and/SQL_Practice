@@ -76,7 +76,7 @@ with Main_tb as
 					where medal != ''NA''
 					group by region, medal
 					order by region, medal',
-				  'values (''Bronze''), (''Gold''), (''Silver'')'
+				  'values (''Bronze''), (''Gold''), (''Silver'')' -- Variable declaration.
 
 				  )
 				as (region varchar, Bronze bigint, Gold bigint, Silver bigint )
